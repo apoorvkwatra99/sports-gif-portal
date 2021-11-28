@@ -6,7 +6,7 @@ This Buildspace project runs on the Solana Devnet. A Phantom wallet with some So
 
 # Backend
 
-The backend folder is where all the smart contract code lives. `programs/solanagifs/src/lib.rs` contains the program `solanagifs` which has the functions `start_stuff_off` and `add_gif`. There are also accounts such as `GifStruct` and `BaseAccount` which contain data for the contract to use. The `tests/solanagifs.js` file was mainly used for testing, and the `scripts/deploy.js` script was used to actually deploy the contract.
+The backend folder is where all the smart contract code lives. `programs/solanagifs/src/lib.rs` contains the program `solanagifs` which has the functions `start_stuff_off` and `add_gif`. There are also accounts such as `GifStruct` and `BaseAccount` which contain data for the contract to use. The `tests/solanagifs.js` file was mainly used for testing.
 
 # Frontend
 
