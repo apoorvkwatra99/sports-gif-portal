@@ -1,0 +1,27 @@
+at context.cachedGetWarnings (/home/runner/sports-gif-portal/node_modules/webpack/lib/stats/DefaultStatsFactoryPlugin.js:499:19)
+    at warnings (/home/runner/sports-gif-portal/node_modules/webpack/lib/stats/DefaultStatsFactoryPlugin.js:871:5)
+    at /home/runner/sports-gif-portal/node_modules/webpack/lib/stats/DefaultStatsFactoryPlugin.js:2530:9
+    at Hook.eval [as call] (eval at create (/home/runner/sports-gif-portal/node_modules/tapable/lib/HookCodeFactory.js:19:10), <anonymous>:19:16)
+    at Hook.CALL_DELEGATE [as _call] (/home/runner/sports-gif-portal/node_modules/tapable/lib/Hook.js:14:14)
+    at /home/runner/sports-gif-portal/node_modules/webpack/lib/stats/StatsFactory.js:350:6
+    at StatsFactory._forEachLevel (/home/runner/sports-gif-portal/node_modules/webpack/lib/stats/StatsFactory.js:137:19)
+    at StatsFactory._create (/home/runner/sports-gif-portal/node_modules/webpack/lib/stats/StatsFactory.js:349:8)
+    at StatsFactory.create (/home/runner/sports-gif-portal/node_modules/webpack/lib/stats/StatsFactory.js:202:16)
+    at Stats.toJson (/home/runner/sports-gif-portal/node_modules/webpack/lib/Stats.js:64:23)
+    at /home/runner/sports-gif-portal/node_modules/react-dev-utils/WebpackDevServerUtils.js:162:29
+    at Hook.eval [as callAsync] (eval at create (/home/runner/sports-gif-portal/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:27:1)
+    at Hook.CALL_ASYNC_DELEGATE [as _callAsync] (/home/runner/sports-gif-portal/node_modules/tapable/lib/Hook.js:18:14)
+    at Watching._done (/home/runner/sports-gif-portal/node_modules/webpack/lib/Watching.js:314:28)
+    at /home/runner/sports-gif-portal/node_modules/webpack/lib/Watching.js:229:21
+    at Compiler.emitRecords (/home/runner/sports-gif-portal/node_modules/webpack/lib/Compiler.js:1046:4)
+    at /home/runner/sports-gif-portal/node_modules/webpack/lib/Watching.js:205:22
+    at /home/runner/sports-gif-portal/node_modules/webpack/lib/Compiler.js:1009:14
+    at Hook.eval [as callAsync] (eval at create (/home/runner/sports-gif-portal/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:6:1)
+    at Hook.CALL_ASYNC_DELEGATE [as _callAsync] (/home/runner/sports-gif-portal/node_modules/tapable/lib/Hook.js:18:14)
+    at /home/runner/sports-gif-portal/node_modules/webpack/lib/Compiler.js:1006:27
+    at /home/runner/sports-gif-portal/node_modules/neo-async/async.js:2818:7
+    at done (/home/runner/sports-gif-portal/node_modules/neo-async/async.js:3522:9)
+    at Hook.eval [as callAsync] (eval at create (/home/runner/sports-gif-portal/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:6:1)
+    at /home/runner/sports-gif-portal/node_modules/webpack/lib/Compiler.js:835:33
+    at Immediate.<anonymous> (/home/runner/sports-gif-portal/node_modules/memfs/lib/volume.js:704:13)
+    at process.processImmediate (node:internal/timers:476:21)

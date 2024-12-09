@@ -1,0 +1,37 @@
+$ craco start
+node:internal/modules/cjs/loader:1134
+  const err = new Error(message);
+              ^
+
+Error: Cannot find module 'crypto-browserify'
+Require stack:
+- /home/runner/sports-gif-portal/craco.config.js
+- /home/runner/sports-gif-portal/node_modules/cosmiconfig/dist/loaders.js
+- /home/runner/sports-gif-portal/node_modules/cosmiconfig/dist/ExplorerBase.js
+- /home/runner/sports-gif-portal/node_modules/cosmiconfig/dist/Explorer.js
+- /home/runner/sports-gif-portal/node_modules/cosmiconfig/dist/index.js
+- /home/runner/sports-gif-portal/node_modules/@craco/craco/dist/lib/config.js
+- /home/runner/sports-gif-portal/node_modules/@craco/craco/dist/scripts/start.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1134:15)
+    at Function.resolve (node:internal/modules/helpers:188:19)
+    at configure (/home/runner/sports-gif-portal/craco.config.js:12:27)
+    at giveTotalControl (/home/runner/sports-gif-portal/node_modules/@craco/craco/dist/lib/features/webpack/merge-webpack-config.js:76:25)
+    at mergeWebpackConfig (/home/runner/sports-gif-portal/node_modules/@craco/craco/dist/lib/features/webpack/merge-webpack-config.js:116:38)
+    at overrideWebpackDev (/home/runner/sports-gif-portal/node_modules/@craco/craco/dist/lib/features/webpack/override.js:8:80)
+    at /home/runner/sports-gif-portal/node_modules/@craco/craco/dist/scripts/start.js:23:39 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/runner/sports-gif-portal/craco.config.js',
+    '/home/runner/sports-gif-portal/node_modules/cosmiconfig/dist/loaders.js',
+    '/home/runner/sports-gif-portal/node_modules/cosmiconfig/dist/ExplorerBase.js',
+    '/home/runner/sports-gif-portal/node_modules/cosmiconfig/dist/Explorer.js',
+    '/home/runner/sports-gif-portal/node_modules/cosmiconfig/dist/index.js',
+    '/home/runner/sports-gif-portal/node_modules/@craco/craco/dist/lib/config.js',
+    '/home/runner/sports-gif-portal/node_modules/@craco/craco/dist/scripts/start.js'
+  ]
+}
+
+Node.js v18.19.1
+error Command failed with exit code 1.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+ 

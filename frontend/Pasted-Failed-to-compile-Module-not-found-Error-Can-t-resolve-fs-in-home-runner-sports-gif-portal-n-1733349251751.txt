@@ -1,0 +1,65 @@
+Failed to compile.
+
+Module not found: Error: Can't resolve 'fs' in '/home/runner/sports-gif-portal/node_modules/@project-serum/anchor/dist/esm'
+WARNING in ./node_modules/@project-serum/borsh/dist/lib/index.js
+Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+Failed to parse source map from '/home/runner/sports-gif-portal/node_modules/@project-serum/borsh/src/index.ts' file: Error: ENOENT: no such file or directory, open '/home/runner/sports-gif-portal/node_modules/@project-serum/borsh/src/index.ts'
+
+WARNING in ./node_modules/@solana/buffer-layout/lib/Layout.js
+Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+Failed to parse source map from '/home/runner/sports-gif-portal/node_modules/@solana/buffer-layout/src/Layout.ts' file: Error: ENOENT: no such file or directory, open '/home/runner/sports-gif-portal/node_modules/@solana/buffer-layout/src/Layout.ts'
+
+WARNING in ./node_modules/superstruct/dist/index.mjs
+Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+Failed to parse source map from '/home/runner/sports-gif-portal/node_modules/superstruct/src/error.ts' file: Error: ENOENT: no such file or directory, open '/home/runner/sports-gif-portal/node_modules/superstruct/src/error.ts'
+
+WARNING in ./node_modules/superstruct/dist/index.mjs
+Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+Failed to parse source map from '/home/runner/sports-gif-portal/node_modules/superstruct/src/struct.ts' file: Error: ENOENT: no such file or directory, open '/home/runner/sports-gif-portal/node_modules/superstruct/src/struct.ts'
+
+WARNING in ./node_modules/superstruct/dist/index.mjs
+Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+Failed to parse source map from '/home/runner/sports-gif-portal/node_modules/superstruct/src/structs/coercions.ts' file: Error: ENOENT: no such file or directory, open '/home/runner/sports-gif-portal/node_modules/superstruct/src/structs/coercions.ts'
+
+WARNING in ./node_modules/superstruct/dist/index.mjs
+Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+Failed to parse source map from '/home/runner/sports-gif-portal/node_modules/superstruct/src/structs/refinements.ts' file: Error: ENOENT: no such file or directory, open '/home/runner/sports-gif-portal/node_modules/superstruct/src/structs/refinements.ts'
+
+WARNING in ./node_modules/superstruct/dist/index.mjs
+Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+Failed to parse source map from '/home/runner/sports-gif-portal/node_modules/superstruct/src/structs/types.ts' file: Error: ENOENT: no such file or directory, open '/home/runner/sports-gif-portal/node_modules/superstruct/src/structs/types.ts'
+
+WARNING in ./node_modules/superstruct/dist/index.mjs
+Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+Failed to parse source map from '/home/runner/sports-gif-portal/node_modules/superstruct/src/structs/utilities.ts' file: Error: ENOENT: no such file or directory, open '/home/runner/sports-gif-portal/node_modules/superstruct/src/structs/utilities.ts'
+
+WARNING in ./node_modules/superstruct/dist/index.mjs
+Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+Failed to parse source map from '/home/runner/sports-gif-portal/node_modules/superstruct/src/utils.ts' file: Error: ENOENT: no such file or directory, open '/home/runner/sports-gif-portal/node_modules/superstruct/src/utils.ts'
+
+ERROR in ./node_modules/@project-serum/anchor/dist/esm/provider.js 144:63-89
+Module not found: Error: Can't resolve 'fs' in '/home/runner/sports-gif-portal/node_modules/@project-serum/anchor/dist/esm'
+
+ERROR in ./node_modules/@project-serum/anchor/dist/esm/workspace.js 20:15-28
+Module not found: Error: Can't resolve 'fs' in '/home/runner/sports-gif-portal/node_modules/@project-serum/anchor/dist/esm'
+
+ERROR in ./node_modules/@project-serum/anchor/dist/esm/workspace.js 23:19-34
+Module not found: Error: Can't resolve 'path' in '/home/runner/sports-gif-portal/node_modules/@project-serum/anchor/dist/esm'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+    - add a fallback 'resolve.fallback: { "path": require.resolve("path-browserify") }'
+    - install 'path-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+    resolve.fallback: { "path": false }
+
+ERROR in [eslint] 
+src/App.js
+  Line 0:  Parsing error: Unexpected token ':'
+
+src/index.js
+  Line 0:  Parsing error: Unexpected token ':'
+
+webpack compiled with 4 errors and 9 warnings
