@@ -1,0 +1,12 @@
+[programs.devnet]
+solanagifs = "6ErX4NBkddnhRSZqx2C2pwWdGygNBa9AACmmahSvQaQg"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/Users/apoorvkwatra/.config/solana/id.json"
+
+[scripts]
+test = "node tests/solanagifs.js" 
